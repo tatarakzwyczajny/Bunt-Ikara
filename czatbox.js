@@ -67,9 +67,9 @@ import { Picker } from '/assets/plugins/emoji-picker-element/index.js';
                 }
             });
             window.addEventListener("resize", positionEmojiPickerInPopup);
-        </script>
-                    <script src="/assets/plugins/socketio/socket.io.min-4.8.1.js"></script>
-                <script>
+    
+       
+             
             let maxChars = 1000;
             let customEmoji;
                             const customEmojiJSON = '';
