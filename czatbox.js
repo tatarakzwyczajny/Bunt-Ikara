@@ -1,6 +1,4 @@
-<script type="module" src="//www.speechbox.chat/assets/plugins/emoji-picker-element/index.js"></script>
-        <script type="module">
-            import { Picker } from '/assets/plugins/emoji-picker-element/index.js';
+import { Picker } from '/assets/plugins/emoji-picker-element/index.js';
 
             function positionEmojiPickerInPopup() {
                 const emojiPickerInPopup = document.querySelector(".speechbox-popup emoji-picker");
@@ -2378,4 +2376,4 @@
                 };
                 img.src = imageUrl;
             }
-        </script>
+
